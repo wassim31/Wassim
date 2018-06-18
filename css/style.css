@@ -1,0 +1,278 @@
+@font-face{
+  font-family: f45;
+  src: url('../fts/FrutigerLight.ttf');
+}
+
+@font-face{
+  font-family: ssl;
+  src: url('../fts/Sansation_Light.ttf');
+}
+
+@font-face{
+  font-family: en;
+  src: url('../fts/CenturyGothic.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  transition: all 0.4s ease-in-out;
+  font-family: f45;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: f45;
+  color: #66CCFF;
+}
+
+.header{
+  background: #ffffff;
+  height: 100px;
+  line-height: 100px;
+}
+
+.navbar{
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.navbar ul{
+  list-style: none;
+  text-align: center;
+  margin: auto
+}
+
+.navbar ul li{
+  float: right;
+  text-align: center;
+}
+
+.navbar ul li a{
+  font-size: 18px;
+  padding: 10px;
+  color: #707070;
+  text-align: center;
+}
+
+.navbar ul li a:hover{
+  text-decoration: none;
+  color: #000;
+  background: #66CCFF;
+  border-radius: 5px;
+}
+
+.social a{
+  display: block;
+  height: 100px;
+  float: left;
+  position: relative;
+}
+
+.fb{
+  background: url(../img/social/social_facebook_button_blue.png) no-repeat center;
+  width: 32px;
+  height: 32px;
+}
+
+.fb:hover{
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -op-transform: rotate(360deg);
+  -khtml-transform: rotate(360deg);
+}
+
+.tr{
+  background: url(../img/social/social_twitter_button_blue.png) no-repeat center;
+  width: 32px;
+  height: 32px;
+}
+
+.tr:hover{
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -op-transform: rotate(360deg);
+  -khtml-transform: rotate(360deg);
+}
+
+.go{
+  background: url(../img/social/social_google_button_blue.png) no-repeat center;
+  width: 32px;
+  height: 32px;
+}
+
+.go:hover{
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -op-transform: rotate(360deg);
+  -khtml-transform: rotate(360deg);
+}
+
+.rs{
+  background: url(../img/social/social_rss_button_orange.png) no-repeat center;
+  width: 32px;
+  height: 32px;
+}
+
+
+.rs:hover{
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -op-transform: rotate(360deg);
+  -khtml-transform: rotate(360deg);
+}
+
+.wrapper{
+  width: 65%;
+  margin: auto;
+}
+
+.loading{
+    height: 50%;
+    left: 0;
+    position: fixed;
+    top: 35%;
+    width: 60%;
+    z-index: 999999999;
+}
+
+.slider{
+  background: #66CCFF;
+  height: 300px;
+  font-size: 25px;
+  width: 100%;
+  color: #0099FF;
+  text-align: center;
+}
+
+.slider small{
+  color: #fff;
+  line-height: 40px;
+}
+
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	margin-right: 40px;
+    z-index: 99999999;
+}
+#back-top a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: all ease 10s;
+	-moz-transition: 1s;
+	transition: 1s;
+    background: url(../img/top.png);
+    z-index: 99999999;
+    opacity: 0.5;
+}
+
+.img{
+  background-color: #0099FF;
+  width: 100px;
+  height: 100px;
+}
+
+.img img{
+  width: 64px;
+  height: 64px;
+  margin-top: 17.5px;
+}
+
+.btn{
+  width: 80%;
+}
+
+.text{
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer{
+  background-color: #222;
+  bottom: 0px;
+  width: 100%;
+  bottom: -120;
+  height: auto;
+  margin-bottom: -50px;
+  color: #fff;
+}
+
+.footer *{
+  color: #fff;
+  text-align: center;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer ul li{
+  border-bottom: 2px groove #424242;
+  padding: 5px;
+}
+
+.box{
+  background: #fff;
+  text-align: center;
+  width: 380px;
+  height: 440px;
+  border-radius: 3px;
+}
+
+.bimg img{
+  width: 380px;
+  height: 290px;
+  border-radius: 3px;
+}
+
+.bdesc *{
+    line-height: 40px;
+}
+
+.bdesc h3{
+  color: #222;
+  font-weight: bold
+}
+
+.bdesc h3 small{
+  color: #222;
+  font-size: 70%;
+}
+
+.border{
+  height: 1px;
+  margin: 500px 10px 0 10px;
+  background-color: #777;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+.copyrights {
+	direction: ltr;
+	text-align: center;
+	font: normal 11px en;
+	color: #555555;
+}
+
+.copyrights a {
+	color: #777777;
+}
+
+.copyrights a:hover {
+	color: #999999;
+}
